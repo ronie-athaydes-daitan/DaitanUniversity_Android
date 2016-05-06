@@ -79,15 +79,4 @@ public class UserAdapter extends BaseAdapter {
         mItems.addAll(newItems);
         notifyDataSetChanged();
     }
-
-    private static class ViewHolder{
-
-        public final TextView mTextView;
-        public final ImageView mImageView;
-
-        public ViewHolder(View view) {
-            mTextView = (TextView) view.findViewById(R.id.textview);
-            mImageView = (ImageView) view.findViewById(R.id.imageview);
-        }
-    }
 }
